@@ -215,7 +215,7 @@
             )
                 handleUpdateRequestContainer();
             else if (_selUr.handling
-                && (document.getElementsByClassName('overlay-container')[0].children.length === 0)
+                && (document.getElementsByClassName('overlay-container')[0].children.length <= 2)
             )
                 handleAfterCloseUpdateContainer();
         }),
